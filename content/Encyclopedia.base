@@ -1,0 +1,84 @@
+formulas:
+  updated: file.mtime.relative()
+  links_out: file.links.length
+views:
+  - type: table
+    name: Organisms
+    filters:
+      and:
+        - note.type == "organism"
+    groupBy:
+      property: gram
+      direction: ASC
+    order:
+      - file.name
+      - domain
+      - gram
+      - morphology
+      - status
+      - formula.updated
+  - type: table
+    name: Diseases
+    filters:
+      and:
+        - note.type == "disease"
+    groupBy:
+      property: system
+      direction: ASC
+    order:
+      - file.name
+      - system
+      - status
+      - formula.updated
+  - type: table
+    name: Maps of Content
+    filters:
+      and:
+        - note.type == "MOC"
+    order:
+      - file.name
+      - status
+      - formula.links_out
+      - formula.updated
+  - type: table
+    name: Computational notes
+    filters:
+      and:
+        - file.inFolder("09-Microbiology/AI and Bioinformatics")
+    order:
+      - file.name
+      - type
+      - status
+      - formula.updated
+  - type: cards
+    name: Figures
+    filters:
+      or:
+        - note.type == "figure"
+        - note.type == "figure-note"
+        - file.inFolder("04_Figures_and_Media")
+    order:
+      - file.name
+      - formula.updated
+  - type: table
+    name: Needs attention
+    filters:
+      and:
+        - note.type != "MOC"
+        - or:
+            - status == "draft"
+            - status == "stub"
+            - formula.links_out < 3
+    order:
+      - file.name
+      - type
+      - status
+      - formula.links_out
+      - formula.updated
+  - type: table
+    name: Recently updated
+    order:
+      - file.name
+      - type
+      - formula.updated
+    limit: 30
