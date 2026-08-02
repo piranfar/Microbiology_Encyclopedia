@@ -2,7 +2,7 @@
 
 Personal knowledge base for medical microbiology — concepts, organisms, lab methods, history, and research notes — published as a website.
 
-**Live site:** https://piranfar.github.io/Microbiology_Encyclopedia/
+**Live site:** https://vahhabpiranfar.com/Microbiology_Encyclopedia/
 
 Author: [Vahhab Piranfar](https://github.com/piranfar)
 

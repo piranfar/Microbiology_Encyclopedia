@@ -8,7 +8,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: en-US
-  baseUrl: piranfar.github.io/Microbiology_Encyclopedia
+  baseUrl: vahhabpiranfar.com/Microbiology_Encyclopedia
   ignorePatterns:
     - private
     - .obsidian
