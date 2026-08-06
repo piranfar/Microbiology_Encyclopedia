@@ -1,7 +1,11 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
+import SiteFooterConstructor from "../SiteFooter"
+import SiteNavigationConstructor from "../SiteNavigation"
 
 const Header = HeaderConstructor()
+const SiteNavigation = SiteNavigationConstructor()
+const SiteFooter = SiteFooterConstructor()
 
 /**
  * The default page frame — three-column layout with left sidebar, center
@@ -35,6 +39,7 @@ export const DefaultFrame: PageFrame = {
                 <HeaderComponent {...componentData} />
               ))}
             </Header>
+            <SiteNavigation {...componentData} />
             <div class="popover-hint">
               {beforeBody.map((BodyComponent) => (
                 <BodyComponent {...componentData} />
@@ -57,6 +62,7 @@ export const DefaultFrame: PageFrame = {
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}
+        <SiteFooter {...componentData} />
       </>
     )
   },

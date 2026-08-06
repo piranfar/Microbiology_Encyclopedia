@@ -229,13 +229,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: "@quartz-community/footer"
-    enabled: true
-    options:
-      links:
-        Image sources and AI-image policy: /04_Figures_and_Media/Image-Sources-and-Attribution
-    layout:
-      position: footer
-      priority: 50
+    enabled: false
 layout:
   groups:
     toolbar:
