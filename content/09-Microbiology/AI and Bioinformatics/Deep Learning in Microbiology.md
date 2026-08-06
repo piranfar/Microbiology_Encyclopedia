@@ -3,7 +3,7 @@ type: concept-note
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - concept-note
   - AI
@@ -22,14 +22,16 @@ Classical ML needs you to hand it features; deep networks build their own featur
 
 ## Detailed Scientific Explanation
 
-| Architecture | Fits | Microbiology use |
-| :--- | :--- | :--- |
-| **CNN** | Grid data | Gram stain and plate images, colony counting, parasite detection on smears |
-| **RNN/LSTM** | Sequential signals | Older nanopore basecalling, time-series vitals |
-| **Transformer** | Long-range dependencies | Protein and genome language models, [[AlphaFold in Microbiology]] |
-| **Graph neural network** | Graphs | Molecules in antibiotic discovery, assembly graphs, metabolic networks |
-| **Diffusion / generative** | Sampling new data | *De novo* protein backbones ([[Protein Design for Antimicrobials]]) |
-| **Autoencoder** | Compression | Embeddings of microbiome or expression profiles |
+| Architecture | Fits | Microbiology use | Deep note |
+| :--- | :--- | :--- | :--- |
+| **CNN** | Grid data | Gram stain and plate images, colony counting, parasite detection on smears | [[Convolutional Neural Networks in Microbiology]] |
+| **RNN/LSTM** | Sequential signals | Older nanopore basecalling, time-series vitals | (legacy; transformers often replace) |
+| **Transformer** | Long-range dependencies | Protein and genome language models, [[AlphaFold in Microbiology]] | [[Transformers and Attention in Microbiology]] |
+| **Graph neural network** | Graphs | Molecules in antibiotic discovery, assembly graphs, metabolic networks | [[Graph Neural Networks in Microbiology]] |
+| **Diffusion / generative** | Sampling new data | *De novo* protein backbones ([[Protein Design for Antimicrobials]]) | [[Generative Models in Microbiology]] |
+| **Autoencoder** | Compression | Embeddings of microbiome or expression profiles | [[Unsupervised Learning in Microbiology]] |
+
+Atlas + when to choose classical ML instead: [[AI Algorithms in Microbiology]] · reuse weights: [[Transfer Learning in Microbiology]].
 
 Practical requirements: large training sets or transfer learning, GPU compute, careful augmentation, and calibration of output probabilities.
 
@@ -60,4 +62,4 @@ Stacked nonlinear transformations trained by backpropagation to minimize a loss;
 3. Where does a neural network sit inside nanopore sequencing itself?
 
 ## Connections
-- [[Machine Learning Basics for Microbiology]] · [[Protein Language Models]] · [[Sequencing Technologies]]
+- [[Machine Learning Basics for Microbiology]] · [[Protein Language Models]] · [[Sequencing Technologies]] · [[AI Algorithms in Microbiology]]

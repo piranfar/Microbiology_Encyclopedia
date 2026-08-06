@@ -8,8 +8,11 @@ tags:
   - molecular
 ---
 
-- **Related MOCs:** [[MOC - Diagnostic & Lab Methods]]  
-Here i am telling about the step-by-step process of reverse transcription polymerase chain reaction (RT-PCR), a molecular biology technique used to convert RNA into complementary DNA (cDNA) and then amplify it. See also [[PCR]].  
+**Related MOCs:** [[MOC - Diagnostic & Lab Methods]]  
+**Upstream:** [[RNA Extraction]] · [[Sample Types and Specimen Quality]] · [[Nucleic Acid Quantification]]  
+**Related:** [[PCR]] · [[qPCR]] · [[Multiplex PCR]] · [[Isothermal NAAT]] · [[RT-PCR]]
+
+Here is the step-by-step process of reverse transcription polymerase chain reaction (RT-PCR), used to convert RNA into complementary DNA (cDNA) and then amplify it.  
 ### •Principle  
   
 RT-PCR works in two main steps:  

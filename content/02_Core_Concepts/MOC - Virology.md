@@ -3,7 +3,7 @@ type: MOC
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - MOC
   - virology
@@ -26,32 +26,45 @@ Viruses are obligate intracellular molecular parasites — acellular, genome in 
 - Vaccines & antivirals
 - Lab: culture (limited), antigen, serology, [[PCR]] / [[Reverse Transcription Polymerase Chain Reaction (RT-PCR)]], sequencing
 
+## Core Virus Notes
+| Virus | Genome / key trait | Links |
+| :--- | :--- | :--- |
+| [[Influenza Virus]] | Segmented (−)ssRNA; drift/shift | Respiratory, vaccination, NA inhibitors |
+| [[HIV]] | Retrovirus; RT + integration | Lifelong ART; resistance genotyping |
+| [[SARS-CoV-2]] | (+)ssRNA coronavirus | Pandemic; spike variants; mRNA vaccines |
+| [[HSV]] | dsDNA herpesvirus; latency | [[HSV Encephalitis]]; acyclovir; CSF PCR |
+| [[Varicella-Zoster Virus]] | Alpha-herpes; ganglia latency | Varicella/zoster; vaccines |
+| [[Cytomegalovirus]] | Beta-herpes; transplant/HIV | Quantitative PCR; congenital |
+| [[Epstein-Barr Virus]] | Gamma-herpes; B-cell | Mononucleosis; serology |
+| [[Hepatitis B Virus]] | Hepadnavirus; RT step | HBsAg/anti-HBs; vaccine |
+| [[Hepatitis C Virus]] | Flavivirus RNA | anti-HCV + RNA; DAAs |
+| [[Measles Virus]] | Morbillivirus; high R₀ | MMR; IgM/IgG |
+
 ## DNA vs RNA (scaffold)
 
-| Group | Examples to add | Notes |
+| Group | Examples | Notes |
 | :--- | :--- | :--- |
-| DNA viruses | HSV, VZV, CMV, EBV, adenovirus, HPV, HBV* | Often nucleus-centric; latency common in herpesviruses |
-| RNA viruses | Influenza, SARS-CoV-2, HIV*, HCV*, measles, rabies | Higher mutation rates; RT for retroviruses |
-| Special | HIV, HBV (RT steps) | Cross antiretroviral / hepatology care |
-
-\*Partial DNA/RNA lifestyle nuances — expand in organism notes later.
+| DNA viruses | [[HSV]], [[Varicella-Zoster Virus]], [[Cytomegalovirus]], [[Epstein-Barr Virus]], adenovirus, HPV, [[Hepatitis B Virus]] | Latency common in herpesviruses |
+| RNA viruses | [[Influenza Virus]], [[SARS-CoV-2]], [[HIV]], [[Hepatitis C Virus]], [[Measles Virus]], rabies | Higher mutation rates |
+| Special | [[HIV]], [[Hepatitis B Virus]] (RT steps) | Cross antiretroviral / hepatology care |
 
 ## Diagnostic Links
 - [[MOC - Diagnostic & Lab Methods]]
-- [[Kary Mullis]] · [[PCR]] · RT-PCR
+- [[Kary Mullis]] · [[PCR]] · [[Reverse Transcription Polymerase Chain Reaction (RT-PCR)]]
+- Computational: [[Viral Genomics and Surveillance]] · [[Phylodynamics]] · [[Metagenomics]]
 
 ## History Anchors
 - [[Edward Jenner]] (vaccination) · [[Louis Pasteur]] (rabies vaccine)
 
 ## Related MOCs
 - [[MOC - Fundamentals of Microbiology]] · [[MOC - Clinical Microbiology]] · [[MOC - Immunology]] · [[MOC - Antimicrobials]]
-- Computational: [[MOC - Bioinformatics in Microbiology]] · [[MOC - AI in Microbiology]] · [[MOC - Public Health & Epidemiology]]
-  - [[Viral Genomics and Surveillance]] — variants, lineages, antiviral resistance
-  - [[Phylodynamics]] — timing and spread of viral lineages
-  - [[Metagenomics]] — virus discovery and culture-independent detection
+- [[MOC - Bioinformatics in Microbiology]] · [[MOC - AI in Microbiology]] · [[MOC - Public Health & Epidemiology]]
+- Vaccines: [[Vaccination]] · [[AI for Vaccine Design]]
 
 ## Build Status
 | Cluster | Status |
 | :--- | :--- |
 | Hub scaffold | done |
-| Virus organism pages | backlog |
+| Priority virus pages | ✅ 2026-08-02 |
+| Extended set (VZV, CMV, EBV, HBV, HCV, measles) | ✅ 2026-08-02 |
+| Rabies, adenovirus, HPV, RSV, arboviruses | optional backlog |

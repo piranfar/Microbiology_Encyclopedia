@@ -3,7 +3,7 @@ type: MOC
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - MOC
   - AMR
@@ -43,7 +43,14 @@ AMR is evolutionary biology under pharmacologic pressure. Resistance spreads by 
 - [[Antimicrobial Resistance]] — definition, terminology, drivers
 - [[Mechanisms of Antibiotic Resistance]] — the five biochemical strategies
 - [[Efflux Pumps]] — the expression-level mechanism databases miss
+- [[MRSA]] — *mecA*/SCCmec and PBP2a
+- [[VRE]] — *vanA*/*vanB* and cell-wall remodeling
+- [[ESBL]] — CTX-M/TEM/SHV extended-spectrum β-lactamases
+- [[AmpC]] — class C cephalosporinases (inducible vs plasmid)
+- [[Carbapenemases]] — KPC, MBLs (NDM/VIM/IMP), OXA-48-like
+- [[Colistin Resistance]] — lipid A remodeling and mobile *mcr*
 - [[ESKAPE Pathogens]] — the priority organism set
+- [[Persisters and Antibiotic Tolerance]] — MIC-blind survival
 - [[Antimicrobial Stewardship]] · [[Infection Prevention and Control]] · [[Vaccination]] — the three prevention levers
 - [[One Health]] — reservoirs beyond the hospital
 
@@ -62,9 +69,11 @@ AMR is evolutionary biology under pharmacologic pressure. Resistance spreads by 
 - [[Paper - AMR Database M.Centner 2026]]
 
 ## Important Organisms (MDR exemplars)
-- [[Staphylococcus aureus]] (MRSA)
-- [[Escherichia coli]] / [[Klebsiella pneumoniae]] (ESBL, carbapenemases)
-- [[Pseudomonas aeruginosa]] (MDR non-fermenter)
+- [[Staphylococcus aureus]] → [[MRSA]]
+- [[Escherichia coli]] / [[Klebsiella pneumoniae]] → [[ESBL]] · [[Carbapenemases]]
+- [[Pseudomonas aeruginosa]] · [[Acinetobacter baumannii]] (MDR non-fermenters)
+- [[Enterococcus faecium]] → [[VRE]]
+- [[Neisseria gonorrhoeae]] (urgent therapeutic threat)
 
 ## Research Questions
 1. How should plasmid epidemiology be reported alongside clonal outbreaks?
@@ -78,5 +87,5 @@ AMR is evolutionary biology under pharmacologic pressure. Resistance spreads by 
 | Cluster | Status |
 | :--- | :--- |
 | Mechanism concept links | done |
-| Dedicated mechanism notes (ESBL, MRSA, carbapenemase) | backlog |
+| Dedicated mechanism notes ([[MRSA]] · [[ESBL]] · [[Carbapenemases]] · [[VRE]] · [[AmpC]] · [[Colistin Resistance]]) | ✅ 2026-08-02 |
 | Paper integration | started |

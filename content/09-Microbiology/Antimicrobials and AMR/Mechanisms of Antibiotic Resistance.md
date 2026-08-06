@@ -24,8 +24,8 @@ Five ways to survive a drug — break it, disguise the target, lock the door, th
 
 | Strategy | How it works | Classic examples |
 | :--- | :--- | :--- |
-| **Enzymatic inactivation** | Hydrolyse or modify the drug | β-lactamases (ESBL, AmpC, carbapenemases: KPC, NDM, OXA-48); aminoglycoside-modifying enzymes |
-| **Target modification** | Alter the binding site | *mecA* → PBP2a (MRSA); *vanA* → D-Ala-D-Lac (VRE); *gyrA*/*parC* (fluoroquinolones); *rpoB* (rifampicin); ribosomal methylation (*erm*, macrolides) |
+| **Enzymatic inactivation** | Hydrolyse or modify the drug | β-lactamases ([[ESBL]], [[AmpC]], [[Carbapenemases]]: KPC, NDM, OXA-48); aminoglycoside-modifying enzymes |
+| **Target modification** | Alter the binding site | *mecA* → PBP2a ([[MRSA]]); *vanA* → D-Ala-D-Lac ([[VRE]]); lipid A remodeling ([[Colistin Resistance]]); *gyrA*/*parC* (fluoroquinolones); *rpoB* (rifampicin); ribosomal methylation (*erm*, macrolides) |
 | **Reduced permeability** | Lose or downregulate porins | OprD loss in [[Pseudomonas aeruginosa]] (carbapenems); porin loss in [[Klebsiella pneumoniae]] |
 | **Active efflux** | Pump the drug out | [[Efflux Pumps]] — AcrAB-TolC, MexAB-OprM |
 | **Target bypass / overproduction** | Use an alternative enzyme or make more target | *dfr* (trimethoprim), *sul* (sulfonamides), thymidine auxotrophy |

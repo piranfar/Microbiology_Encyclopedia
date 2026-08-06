@@ -3,7 +3,7 @@ type: MOC
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - MOC
   - clinical
@@ -42,19 +42,20 @@ flowchart TB
 
 | System hub | Disease notes (starter) | Starter pathogens |
 | :--- | :--- | :--- |
-| [[CNS Infections]] | [[Bacterial Meningitis]] | [[Streptococcus pneumoniae]] |
-| [[Respiratory Infections]] | [[Community-Acquired Pneumonia]] · [[Hospital-Acquired Pneumonia]] | [[Streptococcus pneumoniae]] · [[Klebsiella pneumoniae]] · [[Pseudomonas aeruginosa]] · [[Staphylococcus aureus]] |
+| [[CNS Infections]] | [[Bacterial Meningitis]] · [[HSV Encephalitis]] | [[Streptococcus pneumoniae]] · [[Neisseria meningitidis]] · [[HSV]] |
+| [[Respiratory Infections]] | [[Community-Acquired Pneumonia]] · [[Hospital-Acquired Pneumonia]] · [[Tuberculosis]] | [[Streptococcus pneumoniae]] · [[Mycobacterium tuberculosis]] |
 | [[Cardiovascular Infections]] | [[Infective Endocarditis]] | [[Staphylococcus aureus]] |
 | [[Gastrointestinal Infections]] | [[Clostridioides difficile Infection]] | [[Escherichia coli]] · *C. difficile* |
-| [[Genitourinary Infections]] | [[Acute Cystitis]] · [[Acute Pyelonephritis]] | [[Escherichia coli]] · [[Klebsiella pneumoniae]] |
+| [[Genitourinary Infections]] | [[Acute Cystitis]] · [[Acute Pyelonephritis]] · [[Gonorrhea]] | [[Escherichia coli]] · [[Neisseria gonorrhoeae]] |
 | [[Skin and Soft Tissue Infections]] | [[Cellulitis and Skin Abscess]] · [[Necrotizing Soft Tissue Infection]] | [[Staphylococcus aureus]] · [[Streptococcus pyogenes]] |
-| [[Bone and Joint Infections]] | [[Acute Osteomyelitis]] · [[Septic Arthritis]] | [[Staphylococcus aureus]] |
-| [[Bloodstream and Sepsis]] | [[Sepsis]] · [[CLABSI]] | [[Staphylococcus aureus]] · Enterobacterales · [[Pseudomonas aeruginosa]] |
+| [[Bone and Joint Infections]] | [[Acute Osteomyelitis]] · [[Septic Arthritis]] · [[Prosthetic Joint Infection]] | [[Staphylococcus aureus]] |
+| [[Bloodstream and Sepsis]] | [[Sepsis]] · [[CLABSI]] · [[Malaria]] | [[Staphylococcus aureus]] · *Plasmodium* |
 | [[HEENT Infections]] | [[Streptococcal Pharyngitis]] | [[Streptococcus pyogenes]] · [[Streptococcus pneumoniae]] |
 | [[Device-Associated Infections]] | [[CLABSI]] · (VAP → [[Hospital-Acquired Pneumonia]]) | [[Staphylococcus aureus]] · [[Pseudomonas aeruginosa]] · [[Biofilm]] |
 
-## All disease notes (Phase 1 set)
+## All disease notes
 
+**Phase 1 (14):**
 - [[Bacterial Meningitis]]
 - [[Community-Acquired Pneumonia]] · [[Hospital-Acquired Pneumonia]]
 - [[Infective Endocarditis]]
@@ -64,6 +65,9 @@ flowchart TB
 - [[Acute Osteomyelitis]] · [[Septic Arthritis]]
 - [[Sepsis]] · [[CLABSI]]
 - [[Streptococcal Pharyngitis]]
+
+**Phase 2 (2026-08-02):**
+- [[Tuberculosis]] · [[HSV Encephalitis]] · [[Gonorrhea]] · [[Prosthetic Joint Infection]] · [[Malaria]]
 
 Template for new diseases: [[Template - Disease]]
 
@@ -88,7 +92,7 @@ Template for new diseases: [[Template - Disease]]
 
 > [!example]
 > **Case:** Fever + nuchal rigidity.
-> **System first:** [[CNS Infections]] → CSF [[Gram Stain]] + culture/PCR → likely [[Streptococcus pneumoniae]] or meningococcus (page TBD).
+> **System first:** [[CNS Infections]] → CSF [[Gram Stain]] + culture/PCR → likely [[Streptococcus pneumoniae]] or [[Neisseria meningitidis]].
 > **Workflow twin:** same case under [[MOC - Clinical Microbiology]].
 
 ## Research Questions

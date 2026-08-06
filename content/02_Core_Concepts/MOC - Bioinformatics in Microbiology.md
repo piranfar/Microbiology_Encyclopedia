@@ -3,7 +3,7 @@ type: MOC
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - MOC
   - bioinformatics
@@ -53,19 +53,26 @@ flowchart TB
 - [[Microbial Genomics]]
 
 ## 2. Genome Reconstruction and Interpretation
-- [[Genome Assembly]]
+- [[Genome Assembly]] · [[Long-Read and Hybrid Bacterial Assembly]]
+- [[Assembly Quality Control]] — CheckM / QUAST gates
+- [[Contaminant and Mixed-Culture Detection]]
 - [[Genome Annotation]]
 - [[Variant Calling in Bacteria]]
 - [[WGS Bioinformatics Pipeline]] — the end-to-end route
+- [[Clinical WGS Pipelines]] — validated / accredited layer (Bactopia, nf-core, …)
 
 ## 3. Comparative and Population Genomics
-- [[Comparative Genomics]] — ANI, synteny, genomic islands
+- [[Comparative Genomics]]
+- [[ANI and Species Delineation]] · [[GTDB Taxonomy]]
 - [[Pangenome Analysis]] — core vs accessory
-- [[Plasmid and Mobile Element Analysis]]
-- [[Horizontal Gene Transfer]] as the biological driver
+- [[Bacterial GWAS]] — structure-aware association
+- [[Plasmid and Mobile Element Analysis]] · [[Prophage Detection and Annotation]]
+- Biological drivers: [[Horizontal Gene Transfer]] · [[Integrons]] · [[Transposons and Insertion Sequences]] · [[Integrative Conjugative Elements]] · [[Genomic Islands]] · [[CRISPR-Cas in Bacteria]]
 
 ## 4. Typing, Phylogeny, Epidemiology
 - [[MLST and cgMLST]]
+- [[Population Structure and Clustering]] — PopPUNK / cluster naming
+- [[Recombination in Bacterial Phylogenies]] — Gubbins / ClonalFrameML
 - [[Phylogenomics and Outbreak Typing]]
 - [[Phylogenetic Tree Building]]
 - [[Phylodynamics]]
@@ -81,6 +88,7 @@ flowchart TB
 - [[16S Amplicon Analysis]]
 - [[Metagenome-Assembled Genomes]]
 - [[Microbiome Statistics]]
+- [[Plasmid Host Attribution with ML]] — when plasmids lack a cultured host
 
 ## 7. Clinical AMR Genomics
 - [[AMR Gene Databases]]
@@ -98,15 +106,18 @@ flowchart TB
 
 ## 9. Bridge to AI
 - Feature tables → [[Machine Learning for AMR Prediction]] · [[Machine Learning Basics for Microbiology]]
-- Sequence → structure → [[AlphaFold in Microbiology]] · [[Protein Language Models]]
+- Confounders → [[Population Structure Confounding in Microbial ML]]
+- Sequence → [[DNA and Genome Language Models]] · [[Protein Language Models]] · [[AlphaFold in Microbiology]]
+- Agents → [[Agentic AI for Bioinformatics Workflows]]
 - Hub: [[MOC - AI in Microbiology]]
 
 ## Core Principles
 - Reference and **database versions are part of the result** ([[Reproducible Bioinformatics Workflows]])
 - **Genotype ≠ phenotype** — correlate with [[Antimicrobial Susceptibility Testing]] when therapy depends on it
-- Contamination, mixed cultures, and low coverage invalidate everything downstream
+- Contamination, mixed cultures, and low coverage invalidate everything downstream ([[Contaminant and Mixed-Culture Detection]])
 - Metadata quality limits epidemiological value more often than sequence quality
 - Every clinical result must be traceable from report back to raw reads
+- Recombination and population structure must be modeled before outbreak or GWAS claims
 
 ## Tool Reference Card
 
@@ -168,7 +179,10 @@ flowchart TB
 | Cluster | Status |
 | :--- | :--- |
 | Data foundations, assembly, annotation, variants | done |
+| Assembly QC, long-read/hybrid, contamination gates | ✅ 2026-08-02 |
 | Comparative / pangenome / plasmids / typing | done |
+| ANI/GTDB, bacterial GWAS, recombination-aware trees, PopPUNK | ✅ |
+| Clinical WGS pipelines + prophage annotation | ✅ |
 | Phylogenetics and phylodynamics | done |
 | Multi-omics (RNA, protein, structure) | done |
 | Metagenomics, MAGs, microbiome statistics | done |

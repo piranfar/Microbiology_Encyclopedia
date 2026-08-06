@@ -70,6 +70,9 @@ Real images and AI-generated images follow different rules — read [[Image Sour
 | Gram stain concept | [Khan Academy — Gram staining](https://www.youtube.com/watch?v=FgsgpoFhleA) | [[Gram Stain]] |
 | Gram stain lab technique | [Hardy Diagnostics — perfect Gram stain](https://www.youtube.com/watch?v=McINCWMbseI) | [[Gram Stain]] |
 | Gram stain animation | [Animated Gram stain (USMLE-style)](https://www.youtube.com/watch?v=AZS2wb7pMo4) | [[Bacterial Cell Wall]] |
+| PCR principle | [DNA Learning Center — PCR](https://www.youtube.com/watch?v=2KoLnIwoZKU) | [[PCR]] · [[qPCR]] |
+| RT-PCR concept | [Clevland Clinic — what is RT-PCR (overview)](https://www.youtube.com/watch?v=fkUDu042xic) | [[RT-PCR]] · [[RNA Extraction]] |
+| NGS overview | [Illumina — sequencing by synthesis](https://www.youtube.com/watch?v=fCd6B5HRaZ8) | [[Whole-Genome Sequencing]] · [[NGS Library Preparation]] |
 | HGT overview | [Genetic exchange: conjugation, transduction, transformation](https://www.youtube.com/watch?v=D_OsexGYyfg) | [[Horizontal Gene Transfer]] |
 | Conjugation / HGT lecture | [Conjugation, transformation, transduction](https://www.youtube.com/watch?v=08Q-MVeNeTU) | [[Conjugation]] |
 | Bacteria basics (incl. conjugation idea) | [Khan Academy — Bacteria](https://www.youtube.com/watch?v=TDoGrbpJJ14) | [[MOC - Fundamentals of Microbiology]] |

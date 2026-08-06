@@ -3,7 +3,7 @@ type: system-hub
 system: GI
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - diseases-by-system
   - GI
@@ -22,7 +22,7 @@ tags:
 | Syndrome | Disease note | First specimens / methods |
 | :--- | :--- | :--- |
 | Acute watery diarrhea | TBD | Stool culture / multiplex GI [[PCR]] |
-| Bloody diarrhea / dysentery | Partial → [[Escherichia coli]] | STEC testing; *Shigella*, *Campylobacter*, *Salmonella* (TBD) |
+| Bloody diarrhea / dysentery | Partial → [[Escherichia coli]] | STEC testing; [[Campylobacter jejuni]] · [[Salmonella enterica]]; *Shigella* (TBD) |
 | Food poisoning (preformed toxin) | TBD | Clinical; *S. aureus* toxin |
 | Antibiotic-associated colitis | [[Clostridioides difficile Infection]] | NAAT/toxin algorithms · [[Bacterial Endospore]] |
 | Hepatitis (infectious) | TBD | Viral serology/PCR → [[MOC - Virology]] |
@@ -31,7 +31,8 @@ tags:
 ## Pathogens (starter)
 - [[Escherichia coli]] (ETEC, STEC/EHEC, etc.)
 - [[Staphylococcus aureus]] (enterotoxin food poisoning)
-- Later: Salmonella, Shigella, Campylobacter, *C. difficile*, norovirus, Giardia
+- [[Salmonella enterica]] · [[Campylobacter jejuni]] · [[Vibrio cholerae]] · [[Helicobacter pylori]] · [[Shigella spp.]] · [[Clostridioides difficile]]
+- Later: *Shigella*, norovirus, Giardia
 
 ## Key Concepts
 - [[Normal Microbiota]] disruption → *C. difficile*

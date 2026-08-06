@@ -31,7 +31,7 @@ Three classical routes:
 | [[Transduction]] | Bacteriophage | Generalized / specialized |
 | [[Conjugation]] | Direct cell contact | Plasmids, ICEs |
 
-Mobile genetic elements: [[Plasmid]]s, transposons, integrons, genomic islands. HGT blurs species boundaries for traits like resistance and virulence.
+Mobile genetic elements: [[Plasmid]]s, [[Transposons and Insertion Sequences]], [[Integrons]], [[Integrative Conjugative Elements]], [[Genomic Islands]]. Defense systems ([[CRISPR-Cas in Bacteria]], [[Restriction-Modification Systems]]) modulate which transfers succeed. HGT blurs species boundaries for traits like resistance and virulence.
 
 ## Mechanism
 

@@ -37,14 +37,17 @@ Fundamentals is the spine of this encyclopedia. Bacteriology, diagnostics, and A
 
 ### Growth and Metabolism
 - [[Bacterial Growth Curve]]
-- Aerobic / anaerobic respiration; fermentation *(TBD)*
-- Nutrition requirements *(TBD)*
+- [[Bacterial Respiration and Fermentation]] · [[Oxygen Requirements in Bacteria]]
 
 ### Microbial Genetics
 - [[Mutation and Selection]]
 - [[Horizontal Gene Transfer]]
 - [[Transformation]] · [[Transduction]] · [[Conjugation]]
-- [[Plasmid]]
+- [[Plasmid]] · [[Integrons]] · [[Transposons and Insertion Sequences]] · [[Integrative Conjugative Elements]] · [[Genomic Islands]]
+- [[Bacterial Competence Systems]] · [[Transformation]]
+- [[CRISPR-Cas in Bacteria]] · [[Restriction-Modification Systems]] · [[Bacterial Epigenetics]]
+- [[Gene Expression]] · [[Bacterial Operons and Sigma Factors]] · [[Two-Component Regulatory Systems]] · [[Toxin-Antitoxin Systems]] · [[SOS Response]]
+- [[Quorum Sensing]] · [[Persisters and Antibiotic Tolerance]] · [[Antigenic Variation]]
 
 ### Host–Microbe Framework
 - [[Microbiology]] · [[Pathogen]] · [[Normal Microbiota]] · [[Infectious Disease]]
@@ -81,5 +84,5 @@ Fundamentals is the spine of this encyclopedia. Bacteriology, diagnostics, and A
 | History + germ theory | done |
 | Cell structure | done (core) |
 | Growth curve + biofilm | done |
-| Genetics / HGT | done (core) |
-| Metabolism deep notes | backlog |
+| Genetics / HGT | ✅ advanced layer added 2026-08-02 |
+| Metabolism deep notes | ✅ 2026-08-02 |

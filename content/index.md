@@ -16,7 +16,6 @@ aliases:
 > Personal medical-microbiology encyclopedia by Vahhab Piranfar.
 > Use search or the graph to explore; every note links to its neighbours.
 
-
 # Microbiology Encyclopedia
 
 Personal knowledge base for medical microbiology — concepts, organisms, lab methods, history, and research notes linked into one graph.
@@ -110,11 +109,11 @@ Plus, at the root: `Microbiology Map.canvas` (visual index) and `Encyclopedia.ba
 | :--- | :--- |
 | 0 Navigation | ✅ |
 | 1 Foundations | ✅ core done |
-| 2 Diagnostics | ✅ core done |
-| 3 Bacteriology starter set | ✅ 6 organisms |
-| 4 Clinical / Abx / AMR hubs | ✅ scaffolds |
-| 5 Virus / fungi / parasite / immuno | ✅ scaffolds only |
-| 6 Bioinformatics + AI hubs | ✅ expanded (35+ notes, study path, glossary) |
+| 2 Diagnostics | ✅ molecular spine expanded (extraction → PCR family → NGS wet lab) |
+| 3 Bacteriology | ✅ 25 bacterial pathogens + advanced genetics + AMR deep-dives |
+| 4 Clinical / Abx / AMR hubs | ✅ scaffolds + AMR deep-dives |
+| 5 Virus / fungi / parasite / immuno | ✅ 4 priority viruses; fungi/parasite/immuno still scaffolds |
+| 6 Bioinformatics + AI | ✅ BI/AI + algorithm atlas (supervised→GNN/generative, how-to playbooks) |
 | 7 Source pipeline | 🔄 ongoing |
 | 8 Infrastructure (dashboards, base, canvas, CSS, glossary) | ✅ [[Vault Audit 2026-08-01]] |
 

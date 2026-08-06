@@ -27,9 +27,9 @@ Acute infection of the meninges by bacteria, a medical emergency characterized b
 | Context | Organism | Notes |
 | :--- | :--- | :--- |
 | All ages, common | [[Streptococcus pneumoniae]] | Lancet diplococci; [[Capsule]] |
-| Adolescents / outbreaks | *Neisseria meningitidis* (TBD) | Petechiae / purpura |
-| Neonates | GBS, *E. coli* K1, *Listeria* (TBD) | Age-specific empiric coverage |
-| Unvaccinated children | *H. influenzae* type b (TBD) | Rare where Hib vaccine used |
+| Adolescents / outbreaks | [[Neisseria meningitidis]] | Petechiae / purpura |
+| Neonates | [[Streptococcus agalactiae]], *E. coli* K1, [[Listeria monocytogenes]] | Age-specific empiric coverage |
+| Unvaccinated children | [[Haemophilus influenzae]] type b | Rare where Hib vaccine used |
 | Post-op / trauma / shunt | [[Staphylococcus aureus]], GNRs | Device → [[Device-Associated Infections]] |
 
 ## Pathogenesis

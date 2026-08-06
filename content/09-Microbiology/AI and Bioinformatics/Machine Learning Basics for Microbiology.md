@@ -3,7 +3,7 @@ type: concept-note
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - concept-note
   - AI
@@ -29,13 +29,14 @@ Instead of writing rules for “what makes this isolate resistant,” you show t
 - **Reinforcement** — sequential decisions; rare in microbiology practice
 
 **Classic algorithms that work well on tabular genomic features**
-- Logistic regression with regularization (interpretable baseline)
-- Random forests, gradient boosting (XGBoost/LightGBM) — strong on gene presence/absence and k-mer matrices
+- Logistic regression with regularization (interpretable baseline) → [[Linear and Kernel Models in Microbiology]]
+- Random forests, gradient boosting (XGBoost/LightGBM) — strong on gene presence/absence and k-mer matrices → [[Tree Ensembles in Microbiology]]
 - SVMs; k-nearest neighbours for spectra
+- Full catalog + playbooks: [[AI Algorithms in Microbiology]] · [[Supervised Learning Algorithms in Microbiology]]
 
 **The workflow that matters more than the algorithm**
 1. Define the clinical question and label source (AST result? culture? chart review?)
-2. Feature representation: k-mers, gene presence/absence ([[Pangenome Analysis]]), SNP matrix, image pixels, spectral peaks
+2. Feature representation: k-mers, gene presence/absence ([[Pangenome Analysis]]), SNP matrix, image pixels, spectral peaks → [[Feature Representation for Microbial ML]]
 3. Split data — **by patient, site, and time**, never randomly across replicates
 4. Handle class imbalance (rare resistance phenotypes)
 5. Evaluate honestly ([[Model Evaluation in Clinical Microbiology]])
@@ -67,4 +68,4 @@ Instead of writing rules for “what makes this isolate resistant,” you show t
 3. Which feature types are common for bacterial genomes?
 
 ## Connections
-- [[Deep Learning in Microbiology]] · [[Microbiome Statistics]]
+- [[Deep Learning in Microbiology]] · [[Unsupervised Learning in Microbiology]] · [[Transfer Learning in Microbiology]] · [[Microbiome Statistics]] · [[AI Algorithms in Microbiology]]

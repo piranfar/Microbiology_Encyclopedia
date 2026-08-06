@@ -105,22 +105,27 @@ flowchart TB
 | P1 | [[Pathogen]] · [[Normal Microbiota]] · [[Microbial Classification]] · [[Infectious Disease]] | done |
 | P2 | Metabolism (respiration/fermentation) deep notes | backlog |
 
-### Phase 2 — Diagnostic spine ✅ (core)
+### Phase 2 — Diagnostic spine ✅ (expanded molecular)
 | Priority | Note / cluster | Status |
 | :---: | :--- | :--- |
 | P1 | [[MOC - Diagnostic & Lab Methods]] | done |
-| P1 | [[Gram Stain]] · [[Acid-Fast Stain]] · [[light microscope]] | done / exists |
-| P1 | [[PCR]] · [[Reverse Transcription Polymerase Chain Reaction (RT-PCR)]] | done / exists |
-| P1 | [[Culture and Isolation]] · [[Antimicrobial Susceptibility Testing]] · [[Whole-Genome Sequencing]] | done |
-| P2 | MALDI-TOF, serology, 16S clinical notes | backlog |
+| P1 | [[Gram Stain]] · [[Acid-Fast Stain]] · [[light microscope]] · [[Microscopy]] | done |
+| P1 | Extraction: [[DNA Extraction]] · [[RNA Extraction]] · [[Plasmid DNA Extraction]] · [[Nucleic Acid Quantification]] · [[Sample Types and Specimen Quality]] | done 2026-08-02 |
+| P1 | PCR family: [[PCR]] · [[qPCR]] · [[Multiplex PCR]] · [[Digital PCR]] · [[Nested PCR]] · [[Broad-Range 16S PCR]] · [[RT-PCR]] | done |
+| P1 | New NAAT: [[Isothermal NAAT]] · [[CRISPR-based Diagnostics]] · [[Syndromic Molecular Panels]] | done |
+| P1 | Genome wet lab: [[NGS Library Preparation]] · [[Targeted Enrichment]] · [[Sanger Sequencing]] · [[Whole-Genome Sequencing]] · [[Metagenomic NGS]] | done |
+| P1 | [[Culture and Isolation]] · [[Antimicrobial Susceptibility Testing]] · [[MALDI-TOF MS]] | done |
+| P2 | Serology / antigen deep notes | backlog |
 
-### Phase 3 — Bacteriology core ✅ (starter set)
+### Phase 3 — Bacteriology core ✅ (25 high-yield pathogens)
 | Priority | Cluster | Status |
 | :---: | :--- | :--- |
 | P1 | [[MOC - Bacteriology]] classification tree | done |
 | P1 | [[Staphylococcus aureus]] · [[Streptococcus pyogenes]] · [[Streptococcus pneumoniae]] | done |
 | P1 | [[Escherichia coli]] · [[Klebsiella pneumoniae]] · [[Pseudomonas aeruginosa]] | done |
-| P2 | Anaerobes, mycobacteria, atypicals, *Neisseria*, *Salmonella*… | backlog |
+| P2 | [[Clostridioides difficile]] · [[Mycobacterium tuberculosis]] · [[Acinetobacter baumannii]] · [[Enterococcus faecium]] · [[Salmonella enterica]] · [[Neisseria meningitidis]] | done (2026-08-02) |
+| P3 | [[Listeria monocytogenes]] · [[Streptococcus agalactiae]] · [[Haemophilus influenzae]] · [[Legionella pneumophila]] · [[Mycoplasma pneumoniae]] · [[Neisseria gonorrhoeae]] | done (2026-08-02 pass 2) |
+| P4 | [[Chlamydia trachomatis]] · [[Helicobacter pylori]] · [[Vibrio cholerae]] · [[Campylobacter jejuni]] · [[Nontuberculous Mycobacteria]] · [[Bordetella pertussis]] · [[Treponema pallidum]] | ✅ 2026-08-02 |
 
 ### Phase 4 — Clinical + antimicrobials + AMR ✅ (hubs)
 | Priority | MOC | Status |
@@ -130,12 +135,13 @@ flowchart TB
 | P1 | Individual disease notes (14 starter diseases) | done |
 | P1 | [[MOC - Antimicrobials]] class scaffold | done |
 | P1 | [[MOC - Antimicrobial Resistance (AMR)]] | done |
-| P2 | More diseases (TB, influenza, HSV enceph, GC, PJI…); drug-class notes; ESBL/MRSA/CRE | backlog |
+| P2 | AMR deep-dives ([[MRSA]] · [[ESBL]] · [[Carbapenemases]] · [[VRE]] · [[AmpC]] · [[Colistin Resistance]]) | ✅ 2026-08-02 |
+| P2 | More diseases (TB, influenza, HSV enceph, GC, PJI…); drug-class notes | backlog |
 
-### Phase 5 — Other domains ✅ (scaffolds only)
+### Phase 5 — Other domains
 | MOC | Status |
 | :--- | :--- |
-| [[MOC - Virology]] | scaffold done — virus pages backlog |
+| [[MOC - Virology]] | ✅ hub + 4 priority viruses (influenza, HIV, SARS-CoV-2, HSV) |
 | [[MOC - Mycology]] | scaffold done — organism pages backlog |
 | [[MOC - Parasitology]] | scaffold done — life-cycle notes backlog |
 | [[MOC - Immunology]] | scaffold done — core concept notes backlog |
@@ -153,11 +159,15 @@ flowchart TB
 | P1 | Community: [[Metagenomics]] · [[16S Amplicon Analysis]] · [[Metagenome-Assembled Genomes]] · [[Microbiome Statistics]] | done |
 | P1 | Practice: [[Reproducible Bioinformatics Workflows]] · [[Public Sequence Databases]] · [[FAIR Data and Genomic Surveillance]] | done |
 | P1 | AI foundations: [[Machine Learning Basics for Microbiology]] · [[Deep Learning in Microbiology]] · [[Model Evaluation in Clinical Microbiology]] · [[AI Ethics in Clinical Microbiology]] | done |
+| P1 | **AI algorithm atlas:** [[AI Algorithms in Microbiology]] + supervised/unsupervised/CNN/transformer/GNN/generative/transfer + [[Feature Representation for Microbial ML]] | ✅ 2026-08-02 |
 | P1 | AI applications: [[AI for Antibiotic Discovery]] · [[AI for Vaccine Design]] · [[AI in Antimicrobial Stewardship]] · [[AI for Outbreak Detection]] · [[Digital Microscopy and Image AI]] · [[Genotype to Phenotype Prediction]] | done |
 | P1 | Frontier: [[Protein Language Models]] · [[Foundation Models and LLMs in Microbiology]] | done |
 | P1 | Study aids: [[Computational Microbiology Study Path]] · [[Bioinformatics and AI Glossary]] · [[Genomics Command-Line Cheatsheet]] · [[Bioinformatics Toolkit for Microbiology]] | done |
 | P1 | Figures: [[Figure - Machine Learning Workflow in Microbiology]] · [[Figure - Omics Layers in Microbiology]] · [[Figure - Sequencing Platform Comparison]] | done |
-| P2 | [[MOC - Public Health & Epidemiology]] (scaffold created here — concept notes pending) | scaffold |
+| P1 | **Advanced bacteriology genetics (2026-08-02):** CRISPR, integrons, IS/Tn, ICEs, GIs, QS, TCS, TA, R–M, operons/sigmas, persisters | done |
+| P1 | **Advanced bacterial bioinformatics:** GWAS, recombination-aware trees, ANI/GTDB, assembly QC, long-read/hybrid, prophage, PopPUNK, contamination, clinical WGS pipelines | done |
+| P1 | **Advanced AI-for-bacteria:** DNA LMs, structure confounding, agentic workflows, biofilm/persistence AI, plasmid-host ML | done |
+| P2 | [[MOC - Public Health & Epidemiology]] (scaffold — concept notes started) | scaffold |
 | P2 | Worked datasets / notebooks, deeper Centner extraction | backlog |
 
 ### Phase 7 — Source pipeline (ongoing)
@@ -217,9 +227,9 @@ A domain MOC is “Phase-complete” when it has:
 
 ## Immediate next actions (remaining backlog)
 
-1. First virus pages: influenza, HIV, SARS-CoV-2, HSV — [[MOC - Virology]] is still a scaffold.
-2. Immunology core notes: innate vs adaptive, antibody classes, complement — [[MOC - Immunology]].
-3. Mechanism notes: MRSA, ESBL, carbapenemases (currently only table rows in [[Mechanisms of Antibiotic Resistance]]).
+1. Optional bacteria: *Shigella*, *Corynebacterium diphtheriae*, *Rickettsia*, *Borrelia*, *Leptospira*.
+2. More viruses (VZV, CMV, EBV, HBV/HCV, measles…) under [[MOC - Virology]].
+3. Immunology core notes: innate vs adaptive, antibody classes, complement — [[MOC - Immunology]].
 4. *Candida* + *Aspergillus*; *Plasmodium*.
 5. Metabolism notes under Fundamentals (respiration, fermentation, oxygen classes).
 6. Remaining `(TBD)` organisms in disease notes: *N. meningitidis*, *Listeria*, *H. influenzae*, GBS, *Salmonella*.

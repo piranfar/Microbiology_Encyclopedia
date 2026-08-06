@@ -22,10 +22,14 @@ tags:
 > Determine nearly the entire DNA sequence of an isolate (or metagenome) to identify species, resistance/virulence genes, plasmids, and relatedness for outbreak investigation.
 
 ## 2. Step-by-Step Procedure (clinical overview)
-1. Extract DNA from pure culture (or clinical material for metagenomics).
-2. Library prep → short-read and/or long-read sequencing.
-3. Bioinformatic assembly/mapping → species ID, MLST/cgMLST, resistome, virulome, plasmid typing.
-4. Interpret in clinical/epidemiologic context; report actionable findings per lab policy.
+1. Start from quality specimen/isolate ([[Sample Types and Specimen Quality]]).
+2. Extract DNA ([[DNA Extraction]]; see also [[Plasmid DNA Extraction]] for special plasmid work).
+3. Quantify ([[Nucleic Acid Quantification]]) → [[NGS Library Preparation]] (± [[Targeted Enrichment]] for low-load targets).
+4. Sequence (short and/or long read — [[Sequencing Technologies]]).
+5. Bioinformatic assembly/mapping → species ID, MLST/cgMLST, resistome, virulome, plasmid typing ([[WGS Bioinformatics Pipeline]] · [[Clinical WGS Pipelines]]).
+6. Interpret in clinical/epidemiologic context; correlate AMR genes with [[Antimicrobial Susceptibility Testing]].
+
+**Culture-independent path:** [[Metagenomic NGS]] from primary specimens.
 
 ## 3. Interpretation
 - **Positive utility:** High-resolution relatedness; comprehensive gene catalog.

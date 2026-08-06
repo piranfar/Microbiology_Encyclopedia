@@ -3,7 +3,7 @@ type: system-hub
 system: GU
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - diseases-by-system
   - GU
@@ -25,13 +25,13 @@ tags:
 | Pyelonephritis | [[Acute Pyelonephritis]] | Urine + blood cultures |
 | Catheter-associated UTI | → [[Device-Associated Infections]] | Interpret colony counts carefully |
 | Prostatitis / epididymitis | TBD | Urine ± STI testing |
-| STI syndromes | TBD | NAAT for GC/CT; syphilis serology |
+| STI syndromes | TBD disease notes | NAAT: [[Neisseria gonorrhoeae]] · [[Chlamydia trachomatis]]; serology: [[Treponema pallidum]] |
 
 ## Pathogens (starter)
 - [[Escherichia coli]] (dominant community UTI)
 - [[Klebsiella pneumoniae]] · other Enterobacterales
 - *Enterococcus*, *P. aeruginosa* (complicated / catheter)
-- STI agents → expand under [[MOC - Bacteriology]] / [[MOC - Virology]]
+- STI: [[Neisseria gonorrhoeae]] · [[Chlamydia trachomatis]] · [[Treponema pallidum]] · [[HIV]] / [[HSV]] (viral)
 
 ## Key Concepts
 - Ascending infection from periurethral [[Normal Microbiota]]

@@ -3,7 +3,7 @@ type: MOC
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - MOC
   - antimicrobials
@@ -19,45 +19,38 @@ Drug classes, mechanisms of action, and links to susceptibility testing and resi
 
 Antimicrobials exploit differences between microbe and host ([[Prokaryote vs Eukaryote]], [[Bacterial Cell Wall]]). Therapy choices depend on syndrome, likely pathogens, and [[Antimicrobial Susceptibility Testing]].
 
-## Key Classes (scaffold)
+## Key Classes
 
-| Target | Classes (examples) | Notes |
+| Target | Deep notes | Resistance links |
 | :--- | :--- | :--- |
-| Cell wall | β-lactams, vancomycin | See [[Bacterial Cell Wall]] |
-| Membrane | Polymyxins, daptomycin | See [[Bacterial Plasma Membrane]] |
-| Protein synthesis | Aminoglycosides, macrolides, tetracyclines, linezolid | 70S ribosome |
-| Nucleic acids | Fluoroquinolones, rifamycins, metronidazole | |
-| Metabolism | TMP-SMX, sulfonamides | Folate pathway |
-| Antivirals / antifungals | *(domain-specific — expand)* | [[MOC - Virology]] · [[MOC - Mycology]] |
+| Cell wall | [[Beta-lactams]] · [[Glycopeptides]] | [[MRSA]] · [[ESBL]] · [[AmpC]] · [[Carbapenemases]] · [[VRE]] |
+| Membrane | Polymyxins, daptomycin | [[Colistin Resistance]] · [[Bacterial Plasma Membrane]] |
+| Protein synthesis | [[Aminoglycosides]] · [[Macrolides]] · tetracyclines, linezolid | *erm*, modifying enzymes |
+| Nucleic acids | [[Fluoroquinolones]] · rifamycins, metronidazole | gyrA/parC, *qnr* |
+| Metabolism | TMP-SMX, sulfonamides | FolA/FolP |
+| Antivirals | Organism pages + [[MOC - Virology]] | resistance varies by virus |
 
 ## History Anchors
-- [[Paul Ehrlich]] — magic bullet
-- [[Alexander Fleming]] · [[Howard Florey]] · [[Ernst Chain]] — penicillin
+- [[Paul Ehrlich]] · [[Alexander Fleming]] · [[Howard Florey]] · [[Ernst Chain]]
 
 ## Diagnostic Links
-- [[Antimicrobial Susceptibility Testing]]
-- [[MOC - Diagnostic & Lab Methods]]
+- [[Antimicrobial Susceptibility Testing]] · [[MOC - Diagnostic & Lab Methods]]
 
 ## Resistance Hub
 - [[MOC - Antimicrobial Resistance (AMR)]]
-- Mechanisms: [[Mutation and Selection]] · [[Plasmid]] · [[Horizontal Gene Transfer]]
-
-## Related Papers
-- [[Paper - AMR Database M.Centner 2026]]
+- [[Mechanisms of Antibiotic Resistance]] · [[Plasmid]] · [[Horizontal Gene Transfer]]
 
 ## Core Notes
-- [[Antibiotics]] — targets, classes, pharmacodynamics
-- [[Antimicrobial Stewardship]] — the five Ds and how the lab participates
-- [[Mechanisms of Antibiotic Resistance]] — what defeats each class
-- Testing: [[Antimicrobial Susceptibility Testing]] · [[MIC Testing]] · [[Disk Diffusion]] · [[Broth Microdilution]]
+- [[Antibiotics]] · [[Antimicrobial Stewardship]]
+- Testing: [[MIC Testing]] · [[Disk Diffusion]] · [[Broth Microdilution]]
 
 ## Related MOCs
-- [[MOC - Antimicrobial Resistance (AMR)]] · [[MOC - Clinical Microbiology]] · [[MOC - Bacteriology]] · [[MOC - Fundamentals of Microbiology]]
-- Discovery & optimization: [[MOC - AI in Microbiology]] → [[AI for Antibiotic Discovery]] · [[Protein Design for Antimicrobials]] · [[Structural Bioinformatics]]
-- Use in practice: [[AI in Antimicrobial Stewardship]]
+- [[MOC - Antimicrobial Resistance (AMR)]] · [[MOC - Clinical Microbiology]] · [[MOC - Bacteriology]]
+- [[MOC - AI in Microbiology]] → [[AI for Antibiotic Discovery]] · [[AI in Antimicrobial Stewardship]]
 
 ## Build Status
 | Cluster | Status |
 | :--- | :--- |
 | Class table scaffold | done |
-| Per-class deep notes | backlog |
+| Per-class deep notes (β-lactams, FQ, aminoglycosides, macrolides, glycopeptides) | ✅ 2026-08-02 |
+| Tetracyclines, oxazolidinones, nitroimidazoles, antifungals/antiparasitics | optional backlog |

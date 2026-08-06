@@ -3,7 +3,7 @@ type: MOC
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - MOC
   - AI
@@ -37,6 +37,16 @@ flowchart LR
 - [[Deep Learning in Microbiology]]
 - [[Model Evaluation in Clinical Microbiology]]
 - [[AI Ethics in Clinical Microbiology]]
+- [[Population Structure Confounding in Microbial ML]] — *the* bacterial-specific failure mode
+
+## 1b. Algorithm Atlas (types + how to use)
+- **Hub:** [[AI Algorithms in Microbiology]] — decision table by data type
+- **Features first:** [[Feature Representation for Microbial ML]]
+- **Classical supervised:** [[Supervised Learning Algorithms in Microbiology]] · [[Linear and Kernel Models in Microbiology]] · [[Tree Ensembles in Microbiology]]
+- **Unsupervised:** [[Unsupervised Learning in Microbiology]]
+- **Deep architectures:** [[Convolutional Neural Networks in Microbiology]] · [[Transformers and Attention in Microbiology]] · [[Graph Neural Networks in Microbiology]] · [[Generative Models in Microbiology]]
+- **Reuse at small *n*:** [[Transfer Learning in Microbiology]]
+- Workflow figures: [[Figure - Machine Learning Workflow in Microbiology]] · [[Figure - AI Algorithm Selection in Microbiology]]
 
 ## 2. Structure, Proteins, Design
 - [[AlphaFold in Microbiology]]
@@ -51,31 +61,35 @@ flowchart LR
 - [[Proteomics and MALDI Bioinformatics]] — spectral ML
 - Host-response signatures → [[Microbial Transcriptomics]]
 
-## 4. Resistance and Therapy
+## 4. Resistance and Therapy (bacteria-focused)
 - [[Machine Learning for AMR Prediction]]
 - [[Genotype to Phenotype Prediction]]
 - [[AI in Antimicrobial Stewardship]]
 - [[AI for Antibiotic Discovery]]
+- [[Plasmid Host Attribution with ML]] — metagenomic resistome → likely host
+- Hard phenotypes: [[AI for Biofilm and Persistence Phenotypes]] · [[Persisters and Antibiotic Tolerance]] · [[Biofilm]]
 
 ## 5. Prevention and Population Level
 - [[AI for Vaccine Design]]
 - [[AI for Outbreak Detection]]
 - [[Phylodynamics]] — model-based epidemic inference
 - [[Viral Genomics and Surveillance]]
+- Bacterial epi inputs: [[Population Structure and Clustering]] · [[Bacterial GWAS]]
 
 ## 6. Frontier
 - [[Foundation Models and LLMs in Microbiology]]
-- Genome-scale language models and *de novo* design
-- Agentic AI running bioinformatics workflows ([[Reproducible Bioinformatics Workflows]])
+- [[DNA and Genome Language Models]] — nucleotide foundation models for bacteria
+- [[Agentic AI for Bioinformatics Workflows]] — tool-using agents over locked pipelines
 - Self-driving laboratories: model proposes, robot tests, model updates
 
 ## Core Concepts to Internalize
 - **Data quality dominates model choice.** Label noise from imperfect AST ceilings performance.
-- **Population structure is the microbiology-specific confounder** — models learn lineages, not mechanisms.
+- **Population structure is the microbiology-specific confounder** — models learn lineages, not mechanisms ([[Population Structure Confounding in Microbial ML]]).
 - **Calibration and error types matter more than AUC** — very major errors are the currency of clinical acceptance.
 - **Explainability** — clinicians act on reasons, not scores.
 - **Human-in-the-loop** — AI proposes, laboratory confirms, clinician decides.
 - **Drift** — pathogens and breakpoints change; models decay silently.
+- **MIC ≠ persistence** — tolerance phenotypes need different labels and models.
 
 ## Data & Resources
 
@@ -113,6 +127,7 @@ flowchart LR
 ## Learning Aids
 - [[Figure - AI and Bioinformatics in Microbiology]]
 - [[Figure - Machine Learning Workflow in Microbiology]]
+- [[Figure - AI Algorithm Selection in Microbiology]]
 - [[Computational Microbiology Study Path]]
 - [[Bioinformatics and AI Glossary]]
 
@@ -129,9 +144,13 @@ flowchart LR
 | Cluster | Status |
 | :--- | :--- |
 | ML/DL foundations + evaluation + ethics | done |
+| **Algorithm atlas** (supervised/unsupervised/CNN/transformer/GNN/generative/transfer + features) | ✅ 2026-08-02 |
 | Structure, protein LMs, design | done |
 | Diagnostics and image AI | done |
 | AMR, stewardship, discovery | done |
+| Bacteria-specific confounders + plasmid-host ML | ✅ 2026-08-02 |
+| Biofilm / persistence AI | ✅ |
+| DNA genome LMs + agentic workflows | ✅ |
 | Vaccines, outbreak detection | done |
 | Foundation models / LLMs | done |
 | Hands-on notebooks with real data | backlog |

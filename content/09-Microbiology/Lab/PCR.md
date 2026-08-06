@@ -17,7 +17,9 @@ tags:
 # PCR
 
 **Related MOCs:** [[MOC - Diagnostic & Lab Methods]] · Inventor: [[Kary Mullis]]  
-**Related:** [[Reverse Transcription Polymerase Chain Reaction (RT-PCR)]] · [[Whole-Genome Sequencing]]
+**Upstream:** [[DNA Extraction]] · [[RNA Extraction]] · [[Sample Types and Specimen Quality]] · [[Nucleic Acid Quantification]]  
+**PCR family:** [[qPCR]] · [[Multiplex PCR]] · [[Nested PCR]] · [[Digital PCR]] · [[Broad-Range 16S PCR]] · [[Reverse Transcription Polymerase Chain Reaction (RT-PCR)]] · [[RT-PCR]]  
+**Beyond PCR:** [[Isothermal NAAT]] · [[CRISPR-based Diagnostics]] · [[Syndromic Molecular Panels]] · [[Sanger Sequencing]] · [[Whole-Genome Sequencing]]
 
 ## 1. Principle
 > Polymerase chain reaction enzymatically amplifies a specific DNA segment through repeated cycles of denaturation, primer annealing, and extension — making scarce sequences detectable.

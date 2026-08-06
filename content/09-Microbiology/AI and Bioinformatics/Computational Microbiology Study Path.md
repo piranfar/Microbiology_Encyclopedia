@@ -3,7 +3,7 @@ type: index
 field: microbiology
 status: active
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-02
 tags:
   - study-path
   - bioinformatics
@@ -49,27 +49,30 @@ A reading order through the computational layer of this vault. Hubs: [[MOC - Bio
 24. [[Microbiome Statistics]]
 25. [[Microbial Transcriptomics]] · [[Proteomics and MALDI Bioinformatics]] → [[Figure - Omics Layers in Microbiology]]
 
-## Stage 6 — Machine learning
+## Stage 6 — Machine learning & algorithms
 26. [[Machine Learning Basics for Microbiology]] → [[Figure - Machine Learning Workflow in Microbiology]]
-27. [[Deep Learning in Microbiology]]
-28. [[Machine Learning for AMR Prediction]]
-29. [[Model Evaluation in Clinical Microbiology]]
-30. [[AI Diagnostics in Microbiology]] · [[Digital Microscopy and Image AI]]
+27. [[AI Algorithms in Microbiology]] → [[Feature Representation for Microbial ML]]
+28. Classical: [[Supervised Learning Algorithms in Microbiology]] · [[Linear and Kernel Models in Microbiology]] · [[Tree Ensembles in Microbiology]]
+29. [[Unsupervised Learning in Microbiology]] · [[Transfer Learning in Microbiology]]
+30. Deep: [[Deep Learning in Microbiology]] · [[Convolutional Neural Networks in Microbiology]] · [[Transformers and Attention in Microbiology]] · [[Graph Neural Networks in Microbiology]] · [[Generative Models in Microbiology]]
+31. Applications: [[Machine Learning for AMR Prediction]] · [[AI Diagnostics in Microbiology]] · [[Digital Microscopy and Image AI]]
+32. [[Model Evaluation in Clinical Microbiology]] · [[Population Structure Confounding in Microbial ML]]
 
 ## Stage 7 — Frontier and responsibility
-31. [[Structural Bioinformatics]] → [[AlphaFold in Microbiology]] → [[Protein Design for Antimicrobials]]
-32. [[Protein Language Models]] → [[Foundation Models and LLMs in Microbiology]]
-33. [[AI for Antibiotic Discovery]] · [[AI for Vaccine Design]]
-34. [[AI in Antimicrobial Stewardship]] · [[AI for Outbreak Detection]]
-35. [[AI Ethics in Clinical Microbiology]] · [[FAIR Data and Genomic Surveillance]]
+33. [[Structural Bioinformatics]] → [[AlphaFold in Microbiology]] → [[Protein Design for Antimicrobials]]
+34. [[Protein Language Models]] · [[DNA and Genome Language Models]] → [[Foundation Models and LLMs in Microbiology]]
+35. [[AI for Antibiotic Discovery]] · [[AI for Vaccine Design]]
+36. [[AI in Antimicrobial Stewardship]] · [[AI for Outbreak Detection]]
+37. [[AI Ethics in Clinical Microbiology]] · [[FAIR Data and Genomic Surveillance]]
 
 ## Stage 8 — Working like a bioinformatician
-36. [[Bioinformatics Toolkit for Microbiology]]
-37. [[Reproducible Bioinformatics Workflows]]
-38. [[Public Sequence Databases]]
+38. [[Bioinformatics Toolkit for Microbiology]]
+39. [[Reproducible Bioinformatics Workflows]]
+40. [[Public Sequence Databases]]
 
 ## Self-test checkpoints
 - After Stage 2: can you explain what each file in a pipeline contains?
 - After Stage 3: can you defend "gene present, MIC susceptible" to a clinician?
 - After Stage 4: can you distinguish a clonal from a plasmid outbreak?
 - After Stage 6: can you name three ways a published model could be inflated?
+- After Stage 6 algorithms: can you match data type → algorithm family (genes→GBM, images→CNN, molecules→GNN)?
